@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    max-width:1900PX ;
+    margin: 0 auto;
+  }
+  
+  .container .contact-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+  /* img */
+  .container .contact-container .contact-image {
+    width: 50%;
+    background-color: rgb(255, 254, 229);
+  }
+  
+  .container .contact-container .contact-image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  /* form */
+  .container .contact-container .form-container {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(255, 254, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  /*  */
+  .container .contact-container .form-container .help-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    padding: 0 45px;
+  }
+  .container
+    .contact-container
+    .form-container
+    .help-container
+    .icon-ImArrowLeft {
+    font-size: 45px;
+  }
+  .container .contact-container .form-container .help-container a {
+    font-size: 25px;
+    color: #000;
+  }
+  /* us-containe */
+  .container .contact-container .form-container .us-container {
+    padding: 0 45px;
+  }
+  .input-field {
+    width: 100%;
+    height: 60px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    border: 2px solid rgb(254, 181, 8);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+  }
+  label{
+    font-weight: bold;
+  }
+  
+  textarea.input-field {
+    resize: vertical;
+    padding: 20px  0 0 25px ;
+    height: 100px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 21px;
+    font-size: 30px;
+    background-color: rgb(255, 224, 150);
+    color: rgb(82, 79, 81);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 25px;
+  }
+  .contact-title {
+    color: rgb(254, 181, 8);
+    text-align: center;
+    margin-bottom: 30px ;
+    font-size: 49px;
+  }
+  .form-group{
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 700px) {
+    .container .contact-container .contact-image {
+      display: none;
+    }
+    .container .contact-container .form-container {
+      width: 100%;
+    }
+  }
+
+  
