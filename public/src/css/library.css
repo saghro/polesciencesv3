@@ -1,0 +1,35 @@
+:root {
+    /* colors */
+    --colorYellow: #fffee5;
+    --colorYellow2: #fec842;
+    --colorYellow3: #f9c030;
+
+    --colorGray: #afafaf;
+    --colorGray2: #383838;
+    --colorGray3: #38383809;
+    --colorGray4: #3838381b;
+
+    
+    --colorShadow:gray;
+
+
+    --colorWhite: #ffffff;
+    --colorCorrect: #17e347;
+    --colorIncorrect: #ff3636;
+    
+
+
+    /* font-familys */
+    --font1:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+@keyframes rotation360 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+}

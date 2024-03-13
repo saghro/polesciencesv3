@@ -1,0 +1,261 @@
+@import url('library.css');
+
+.registerPage{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--colorWhite);
+    display: flex;
+}
+.designText{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formRegistre{
+    width: 50%;
+    height: fit-content;
+    background-color: var(--colorYellow);
+    border-radius: 15PX 0PX 0PX 15PX;
+    box-shadow: 1PX 1PX 5PX var(--colorShadow);
+}
+.designText,.formRegistre{
+    flex: 1;
+    align-self: stretch;
+}
+.placeLogo{
+    width: 100%;
+    height: 60PX;
+}
+.logoBloc{
+    height: 100%;
+    width: 170PX;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 180%;
+}
+.titlePlace{
+    width: 100%;
+    height: 30PX;
+    display: flex;
+    justify-content: center;
+    margin-top: 20PX;
+}
+.titlePlaceCenter{
+    width: fit-content;
+    height: 100%;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 23PX;
+    display: flex;
+    align-items: center;
+    color: var(--colorGray2);
+}
+.wordColorYellow{
+    margin-right: 10PX;
+    color: var(--colorYellow2);
+}
+.smolltitle{
+    height: 20PX;
+    margin-top: 0PX;
+}
+.smolltitleCenter{
+    font-size: 11PX;
+    font-weight: 100;
+}
+.line{
+    width: 280PX;
+    height: 1PX;
+    background-color: var(--colorGray);
+}
+.lineStyle{
+    margin-top: 10PX;
+}
+.formInputsPlace{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.formInputs{
+    width: 80%;
+    height: fit-content;
+    min-width: 320;
+    max-width: 400PX;
+}
+.titleInp{
+    width: 100%;
+    height: 15PX;
+    font-family: var(--font1);
+    font-size: 12PX;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: var(--colorGray2);
+    margin-top: 10PX;
+}
+.placeInp{
+    width: 100%;
+    height: 40PX;
+    background-color: var(--colorWhite);
+    border-radius: 5PX;
+    border: 2PX solid var(--colorYellow2);
+    overflow: hidden;
+    margin-top: 3PX;
+    padding-left: 10PX;
+}
+.placeInpPassword{
+    padding-right: 0PX;
+    position: relative;
+}
+.inp{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    font-size: 13PX;
+    font-family: var(--font1);
+    font-weight: 700;
+}
+.placeBtn{
+    width: 100%;
+    height: 40PX;
+    border-radius: 5PX;
+    overflow: hidden;
+    margin-top: 20PX;
+}
+.btnRegistre{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: var(--colorYellow2);
+    color: var(--colorGray2);
+    font-family: var(--font1);
+    font-size: 15PX;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnRegistre:hover{
+    background-color: var(--colorYellow3);
+}
+.placeGoLogin{
+    width: 100%;
+    height: 30PX;
+    margin-top: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20PX;
+}
+.placeGoLoginCenter{
+    width: fit-content;
+    height: 20PX;
+    font-family: var(--font1);
+    font-size: 13PX;
+}
+.loginLink{
+    color: var(--colorYellow2);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.designTextCenter{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500PX;
+    position: relative;
+}
+.designTextCenter2{
+    width: 100%;
+    height: fit-content;
+    max-width: 350PX;
+    font-family: var(--font1);
+    color: var(--colorYellow2);
+    font-size: 33PX;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40PX;
+    margin-bottom: 40PX;
+}
+.imgQuotesTop,.imgQuotesBottom{
+    position: absolute;
+    width: 40PX;
+}
+.designTextCenter .imgQuotesTop{
+    top: 0PX;
+    left: 0PX;
+}
+.imgQuotesBottom{
+    transform: rotate(180deg);
+}
+.designTextCenter .imgQuotesBottom{
+    bottom: 0PX;
+    right: 0PX;
+}
+#BtnPass1,#BtnPass2{
+    position: absolute;
+    width: 35PX;
+    height: 40PX;
+    padding: 0PX;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff00;
+}
+.placeInpPassword #BtnPass1,.placeInpPassword #BtnPass2{
+    top: 0PX;
+    right: 0PX;
+}
+#iconePassword1,#iconePassword2{
+    width: 20PX;
+    height: 20PX;
+}
+.Message{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--colorCorrect);
+    border-radius: 5PX;
+    display: flex;
+    align-items: center;
+    padding-top: 5PX;
+    padding-bottom: 5PX;
+    padding-left: 5PX;
+    font-family: var(--font1);
+    color: var(--colorWhite);
+    display: none;
+}
+.chargement-icone-place{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.chargement-icone{
+    width: 25PX;
+    height: 25PX;
+    animation: rotation360 0.5s linear infinite;
+}
+@media (max-width: 600px) {
+    .designText{
+        display: none;
+    }
+    .formRegistre{
+        width: 100%;
+        border-radius: 0PX;
+    }
+    .formRegistre{
+        box-shadow: 0PX 0PX 0PX rgba(128, 128, 128, 0);
+    }
+}

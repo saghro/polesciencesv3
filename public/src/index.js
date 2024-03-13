@@ -1,18 +1,24 @@
 import React from 'react';
-import './App.css';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import Contact from './components/Contact';
+import Registre from './components/Registre';
 
-function App() {
-  return (
+import './index.css';
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
     <BrowserRouter>
       <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/registre" element={<Registre />} />
       </Routes>
     </BrowserRouter>
-  );
-}
+  </React.StrictMode>
+);
 
-export default App;
