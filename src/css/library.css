@@ -3,11 +3,16 @@
     --colorYellow: #fffee5;
     --colorYellow2: #fec842;
     --colorYellow3: #f9c030;
+    --colorYellow4:#fceec3;
+    --colorYellow5:#fef7e1;
+
 
     --colorGray: #afafaf;
     --colorGray2: #383838;
     --colorGray3: #38383809;
     --colorGray4: #3838381b;
+    --colorGray5: #b5b7c0;
+
 
     
     --colorShadow:gray;
@@ -16,6 +21,11 @@
     --colorWhite: #ffffff;
     --colorCorrect: #17e347;
     --colorIncorrect: #ff3636;
+    --colorWarning: #eef139;
+
+    --colorOrange: #ff966c;
+    --colorBlack: #000;
+    --colorRougeF : #ffe4c400;
     
 
 

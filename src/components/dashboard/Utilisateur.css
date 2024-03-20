@@ -1,0 +1,132 @@
+.container_user {
+  width: 100%;
+  height: auto;
+}
+
+.search {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.search_input {
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.loupe {
+  width: 24px;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.tableau_7489 {
+  min-width: 760px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font1);
+}
+
+.thead {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  color: var(--colorGray5);
+}
+
+.thead div {
+  width: 16.66%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tbody .t1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.head,
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  margin-bottom: 6px;
+}
+
+.row div {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+.pagination_utilisateur {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20PX;
+}
+
+.myRowUser {
+  width: 100%;
+  height: fit-content;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.myRowUser:hover {
+  background-color: var(--colorGray4);
+}
+
+.myRowUserItem {
+  width: 16%;
+  height: 40px;
+  font-family: var(--font1);
+  font-size: 14px;
+  color: var(--colorBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BtnItem {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  opacity: 0.4;
+  cursor: pointer;
+  background-color: var(--colorYellow2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BtnItem:hover {
+  opacity: 1;
+}
+
+.placeButtonAction {
+  justify-content: space-evenly;
+}
+
+.iconBtnAction {
+  width: 30px;
+  height: 30px;
+}

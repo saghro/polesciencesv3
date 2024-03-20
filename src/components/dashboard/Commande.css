@@ -1,0 +1,80 @@
+@import url("../../css/library.css");
+
+.container_order {
+  width: 100%;
+  height: auto;
+}
+
+.search {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search .search_input {
+  width: 100%;
+  height: 50px;
+  padding-left: 50px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.search .loupe {
+  width: 24px;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.search .search_input::placeholder {
+  color: var(--colorGray);
+  font-weight: 100;
+}
+
+.tableau_74 {
+  min-width: 760px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorRougeF);
+}
+
+.tableau_74 .theads {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  color: var(--colorGray5);
+}
+
+.tableau_74 .theads div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myRowOrderItem {
+  width: 16%;
+  height: 40px;
+  font-family: var(--font1);
+  font-size: 14px;
+  color: var(--colorBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theadsRowOrder {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabHeadrOrders {
+  color: var(--colorGray);
+}
