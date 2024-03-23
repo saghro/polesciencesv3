@@ -16,8 +16,6 @@
     width: 50%;
     height: fit-content;
     background-color: var(--colorYellow);
-    border-radius: 15PX 0PX 0PX 15PX;
-    box-shadow: 1PX 1PX 5PX var(--colorShadow);
 }
 .designText,.formRegistre{
     flex: 1;
@@ -25,7 +23,8 @@
 }
 .placeLogo{
     width: 100%;
-    height: 60PX;
+    height: fit-content;
+    margin-top: 20PX;
 }
 .logoBloc{
     height: 100%;
@@ -256,8 +255,5 @@
     .formRegistre{
         width: 100%;
         border-radius: 0PX;
-    }
-    .formRegistre{
-        box-shadow: 0PX 0PX 0PX rgba(128, 128, 128, 0);
     }
 }

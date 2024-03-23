@@ -1,0 +1,214 @@
+@import url('library.css');
+html, body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: -10PX;
+    height: 100%;
+    background-color:var(--colorYellow6)   ;
+}
+
+.principContainer{
+    width: 100vw; 
+    height: 100vh;
+    
+}
+.menubox{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-pole{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px var(--colorShadow2);
+}
+.helpbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100PX;
+    text-shadow: 1px 1px 2px var(--colorShadow2);
+    font-size: 16PX;
+    font-family: var(--font1);
+    cursor: pointer;
+}
+.helpbox:hover{
+    text-decoration: underline;
+}
+.boxloginPrinci{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.imagetech{
+    height: 100%;
+    object-fit: cover;
+}
+.boxImgLog{
+    display: flex;    
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 4px var(--colorShadow2); 
+
+}
+.imagediv{
+    height: 100VH;
+    width: 100VW;
+    overflow: hidden;
+}
+.boxlogin{
+  width: 100VW;
+  height: 100VH;
+  background-color: var(--colorYellow);
+  justify-content: center;
+
+}
+.divlogin{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 550;
+    color: var(--colorYellow2) ;
+    text-shadow: 1px 1px 2px var(--colorShadow2);
+    font-family: var(--font1);
+} 
+.divpara{
+    color: var(--colorGray7);
+    text-align: center;
+    margin: 5PX 0;
+    font-size: 13px ;
+    font-family: var(--font1);
+}
+.placeLineLogin{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50PX;
+    margin-top: 20PX;
+}
+.lineLogin{
+    width: 300PX;
+    height: 1.5PX;
+    background-color: var(--colorGray);
+}
+.boxinput1, .boxinput2 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.input1,.input2{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px var(--colorShadow2);
+    outline: none;
+    border:2px solid var(--colorYellow2);
+    background-color: var(--colorWhite);
+    padding-left: 7PX;
+    font-weight: bold;
+    font-family: var(--font1);
+    max-width: 400PX;
+    min-width: 300PX;
+}
+.inppass{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    font-weight: bold;
+    font-family: var(--font1);
+}
+.input2{
+    position: relative;
+    overflow: hidden;
+}
+.bxlabel1,.bxlabel2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.label-1,.label-2{
+    width: 80%;
+    font-size: 12px;
+    font-family: var(--font1);
+    font-weight: bold;
+    max-width: 400PX;
+    min-width: 300PX;
+}
+.boxboton{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 15PX;
+}
+.boton{
+    width: 80%;
+    height: 40PX;
+    font-family: var(--font1);
+    border-radius: 5px;
+    background-color: var(--colorYellow2)  ;
+    font-size: 17px;
+    color: var(--colorGray2);
+    box-shadow: 2px 2px 4px var(--colorShadow2); 
+    max-width: 400PX;
+    min-width: 300PX;
+    outline: none;
+    padding: 0PX;
+    border: none;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: var(--colorYellow3);
+}
+.register{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    font-family: var(--font1);
+    font-size: 14PX;
+    margin-top: 30PX;
+}
+.aregister{
+    margin-left:5PX;
+    text-decoration-line: none;
+    color: var(--colorYellow3);
+    font-family: var(--font1);
+}
+.aregister:hover{
+    text-decoration-line: underline;  
+}
+.btnChangeStatePassword{
+    width: 40PX;
+    height: 40PX;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input2 .btnChangeStatePassword{
+    top: 0;
+    right: 0;
+}
+.iconePassword{
+    width: 20PX;
+    height: 20PX;
+    margin-bottom: 2PX;
+}
+
+@media screen and (max-width: 600px) {
+    .imagediv {
+      display: none; 
+    }
+}         
+
