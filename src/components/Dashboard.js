@@ -27,8 +27,7 @@ function Dashboard() {
   }, [locationStr]);
 
   return (
-    <>
-      <div className="container">
+    <div className="container">
         <div className="dashboard-container">
 
 
@@ -76,8 +75,6 @@ function Dashboard() {
             </div>
           </div>
 
-
-
           <div className='dashboard_content_0783'>
             <div className="admin">
             <div className='admimg'>
@@ -100,9 +97,9 @@ function Dashboard() {
               </Routes>
             </div>
           </div>
+
         </div>
       </div>
-    </>
   );
 };
 

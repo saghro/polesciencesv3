@@ -64,8 +64,8 @@ html, body {
 .boxlogin{
   width: 100VW;
   height: 100VH;
-  background-color: var(--colorYellow);
   justify-content: center;
+  background: var(--degradationDiv);
 
 }
 .divlogin{

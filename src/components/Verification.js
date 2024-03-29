@@ -65,7 +65,7 @@ function Verification() {
                 <button className="button" >Envoyer</button>
             </div>
           <div className='login-place'>
-          <div className="placeGoLoginCenter">Vous avez déjà un compte ? <span><Link to="/login" className="loginLink">log in</Link></span></div>
+          <div className="placeGoLoginCenter">Vérifiez plus tard ? <span><Link to="/login" className="loginLink">log in</Link></span></div>
           </div>
             </div>
         </div>

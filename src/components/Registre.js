@@ -71,7 +71,7 @@ function Registre() {
         return str.length === 10;
     };
     const isPasswordValid = (str) => {
-        return str.length >= 10;
+        return str.length >= 8;
     };
     const Registre = () => {
         if(nameVal==="" || emailVal===""|| phoneVal===""|| password1Val===""|| password2Val===""){
@@ -115,7 +115,7 @@ function Registre() {
         setDisplayReload("flex");
         setDisplayRegistre("none");
         try{
-            const response = await fetch('http://89.116.111.198:3000/api/user/Registre', {
+            const response = await fetch('https://api.funibia.com:3000/api/account/registre', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',

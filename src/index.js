@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Registre from './components/Registre';
 import Verification from './components/Verification';
 import Dashboard from './components/Dashboard';
+import Home from './components/Home';
 import './index.css';
 
 
@@ -20,6 +21,9 @@ root.render(
           <Route path="/registre" element={<Registre />} />
           <Route path="/verification" element={<Verification />} />
           <Route path="/dashboard/*" element={<Dashboard />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

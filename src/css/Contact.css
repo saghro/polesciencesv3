@@ -13,7 +13,8 @@
   }
   .page-contact-Form{
     width: 50%;
-    height: fit-content;
+    height: 100vh;
+    background: var(--degradationDiv);
   }
   .page-contact-image{
     height: 100%;

@@ -15,7 +15,8 @@
 .formRegistre{
     width: 50%;
     height: fit-content;
-    background-color: var(--colorYellow);
+    background: var(--degradationDiv);
+
 }
 .designText,.formRegistre{
     flex: 1;
@@ -121,6 +122,10 @@
     font-size: 13PX;
     font-family: var(--font1);
     font-weight: 700;
+}
+.inp::-ms-reveal,
+.inp::-ms-clear {
+    display: none;
 }
 .placeBtn{
     width: 100%;

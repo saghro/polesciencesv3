@@ -6,6 +6,7 @@
     --colorYellow4:#fceec3;
     --colorYellow5:#fef7e1;
     --colorYellow6:#fffcc0;
+    --colorYellow7: #ffe7b6;
 
 
     --colorGray: #afafaf;
@@ -30,6 +31,10 @@
     --colorOrange: #ff966c;
     --colorBlack: #000;
     --colorRougeF : #ffe4c400;
+
+    --degradationDiv: linear-gradient(90deg,#fff1d5,#ffefe8);
+    --degradationDiv2: linear-gradient(90deg,#ffefce,#ffdbca);
+    --buttonFocus: linear-gradient(20deg,#ffb395,#ffd363);
     
 
 
