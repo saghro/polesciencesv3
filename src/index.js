@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import Contact from './components/Contact';
@@ -9,10 +9,7 @@ import Dashboard from './components/Dashboard';
 import Home from './components/Home';
 import './index.css';
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
@@ -23,9 +20,8 @@ root.render(
           <Route path="/dashboard/*" element={<Dashboard />} />
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
-

@@ -1,0 +1,80 @@
+.section {
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.servicetitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color:var( --colorBlack);
+}
+
+main section.right-section.flex {
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 2rem;
+}
+.card {
+  border: 1px solid rgba(6, 6, 6, 0.05), ;
+  border-radius: 20px;
+  transition: 0.3s;
+  background-image: linear-gradient(
+    rgba(90, 83, 83, 0.05),
+    rgba(90, 83, 83, 0.05)
+  );
+}
+.card:hover {
+  border: 1px solid rgba(255, 255, 255, 0.05),;
+  rotate: 1deg;
+  scale: 1.01;
+  cursor: pointer;
+}
+.card img {
+  border-radius: 5px;
+  width: 20rem;
+  height: 12rem;
+  border-radius: 20px 20px 0px 0px;
+}
+.card .box {
+  padding: 1rem 0.4rem;
+}
+.card .box .title {
+  color: var(--colorBlack);
+}
+
+
+.btnn {
+  font-size: 15px;
+  color:var(--colorBlack);
+  padding: 10px 20px;
+  margin: 1rem;
+  margin-left: 90px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+
+@media (max-width: 800px) {
+  section {
+    flex-direction: column;
+    gap: 2.64rem;
+    align-items: center;
+  }
+  .section section.left-section.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+main.flex {
+  gap: 1rem;
+  align-items: start;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}

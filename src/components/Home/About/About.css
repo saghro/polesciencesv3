@@ -1,0 +1,43 @@
+
+.about-us {
+    padding: 20px;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .about-us h2 {
+    color:var(--colorBlack);;
+    font-size:2rem;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .about-content img{
+    width:600px;
+    height: 500px;
+    border-radius: 1.5rem;
+  }
+  .about-text p {
+    color:var(--colorBlack);
+    width: 700px;
+    margin-top: 100px;
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 800px) {
+    .about-content {
+      padding: 0 20px; 
+    }
+  
+    .about-text p {
+      margin-top: 10px; 
+      font-size: 1rem; 
+      width: 300px;
+    }
+    .about-content img{
+        display: none;
+    }
+  }
